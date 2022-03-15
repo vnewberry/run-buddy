@@ -72,7 +72,7 @@ section {
   width: 500px;
   color: #024e76;
   border: solid 3px #024e76;
-  position:absolute;
+  position: absolute;
   bottom: 120px;
   right: 140px;
 }
@@ -89,8 +89,8 @@ section {
   padding: 7px 15px;
   font-size: 16px;
   color: #024e76;
-  width: 100%; 
-  margin-bottom: 15px; 
+  width: 100%;
+  margin-bottom: 15px;
 }
 .hero-form label {
   margin: 0 5px;
@@ -104,16 +104,23 @@ section {
 }
 /* Hero Style End */
 /* Section Style Start */
-.intro {
-  text-align: center;
-}
-.intro h2 {
+
+.section-title {
   font-size: 55px;
   color: #024e76;
   margin-bottom: 35px;
-  border-bottom: #fce138 solid 3px;
   padding: 0 100px 20px 100px;
   display: inline-block;
+  border-bottom: 3px solid;
+}
+.primary-border {
+  border-color: #fce138;
+}
+.secondary-border {
+  border-color: #39a6b2;
+}
+.intro {
+  text-align: center;
 }
 .intro p {
   padding: 0 50px 0 50px;
@@ -123,4 +130,27 @@ section {
   width: 80%;
   font-size: 20px;
   margin: 0 auto;
+}
+.steps {
+  background-color: #fce138;
+  text-align: center;
+}
+.steps div {
+  margin-bottom: 80px;
+}
+.steps img {
+  width: 15%;
+  margin: 10px 0;
+}
+.steps h3 {
+  color: #024e76;
+  font-size: 46px;
+  margin-top: 10px;
+}
+.steps p {
+  color: #39a6b2;
+  font-size: 23px;
+}
+.steps span {
+  font-size: 38px;
 }
